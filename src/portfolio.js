@@ -9,28 +9,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Ukonu Lucky Ifeanyichukwu",
+  title: "Hi Friends, I'm Lucky",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A goal driven Frontend Software Developer 🚀 having experience in developing Dynamic Websites for both PC and Mobile views using Bootstrap / Materila UI / SASS / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://docs.google.com/document/d/1IRxNaAKQQXPGPLf4_Xir9jMV3b4HDGDd/edit",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  github: "https://github.com/ukonulucky",
+  // linkedin: "https://www.linkedin.com/in/ukonulucky",
+  gmail: "ukonulucky@gmail.com",
+
+  stackoverflow: "https://stackoverflow.com/users/ukonulucky",
+  instagram: 'https://www.instagram.com/ukonulucky/',
+  twitter: 'https://twitter.com/ukonulucky_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,7 +36,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A Smart Frontend Developer Who Delights In  designing And Developing Websites Application Using Current TECH Technologies.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -77,18 +75,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -103,22 +90,18 @@ const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "University Of Port Harcourt",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
+      subHeader: "Master of Science in Solid State Physics",
+      duration: "January 2019 - October 2021"
+    }, 
     {
-      schoolName: "Stanford University",
+      schoolName:"University Of Port Harcourt",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "Bachelor of Science in Phyiscs",
+      duration: "January 2012 - August 2016",
+      desc:"COnfidential",
+  
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -135,11 +118,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -150,36 +133,37 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+     {
+      role: "Freelance",
+      company: "Cinfores Limited",
+      companylogo: require("./assets/images/cinfores.jpg"),
+      date: "April 2021 – Present",
+      desc:
+        "Building Dynamic and Reponsive Webpages For Clients"
+    },
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
+      role: "Trainee",
+      company: "Rivers State ICT Department",
+      companylogo: require("./assets/images/techcreek.jpg"),
+      date: "November 2021 – Febuary 2021",
+      desc:
+        "Building of several dynamic webpages that is fully responsive for both mobile, desktop and PC views using ReactJs."
+    },
+  
+    {
+      role: "Intern",
+      company: "Ububa Technologies",
       companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      date: "Febuary 2020 – January 2021",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Bulding A Team of Productive Software Developers.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Building Websites",
+        "Project Cordination",
+        "Coaching"
       ]
-    },
-    {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
     }
+   
   ]
 };
 
@@ -291,17 +275,17 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "My Acheivements",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "",
 
   blogs: [
     {
       url:
         "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "FRONTEND ENGINEER",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "High proficiency in  JavaScript,Reactjs,Redux, SASS, Bootstrap, Material UI AND HTML5."
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -348,15 +332,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+    "Incase you wish to Discuss a project? Am allways ready.",
+  number: "+234-7063033152, +234-7019270583",
+  email_address: "ukonulucky@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "ukonulucky", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
