@@ -145,7 +145,7 @@ const workExperiences = {
       role: "Trainee",
       company: "Rivers State ICT Department",
       companylogo: require("./assets/images/techcreek.jpg"),
-      date: "November 2021 – Febuary 2021",
+      date: "March 2021 – July 2021",
       desc:
         "Building of several dynamic webpages that is fully responsive for both mobile, desktop and PC views using ReactJs."
     },
@@ -275,7 +275,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "My Acheivements",
+  title: "Blogs",
   subtitle:
     "",
 
