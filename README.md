@@ -1,6 +1,5 @@
-# # Clever Programmer ReactJS Portfolio Template      
+# # Ukonu Lucky ReactJS Portfolio Template      
 
-![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")
 
 ## <a href="https://pensive-golick-762a4c.netlify.app" target="_blank">LIVE DEMO</a>
 
@@ -14,7 +13,7 @@ This is a ReactJS based personal resume website template for participants of The
 #### PROCEDURE:
 - Download the zip folder from Github and unzip it
 Here is the link to download zip 👉
-<a href='https://github.com/CleverProgrammers/portfolio-react-cp/archive/master.zip'>HERE</a>
+<a href='https://github.com/ukonu lucky/my-portfolio'>HERE</a>
 - Open the folder in VS Code
 - Edit <code>src/portfolio.js</code> and add your personal details and projects
 - Open terminal in VS Code
