@@ -9,11 +9,12 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ukonu Lucky Ifeanyichukwu",
-  title: "Hi Friends, I'm Lucky",
+  username: "Edon-Uwe Oghenekevwe Precious",
+  title: "Hi Friends, I'm Oghenekevwe",
   subTitle: emoji(
-    "A goal driven Frontend Software Developer 🚀 having experience in developing Dynamic Websites for both PC and Mobile views using Bootstrap / Materila UI / SASS / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
-  ),
+    "My goal is to create amazing websites and web-based applications that are tailored to meet your needs and drive your business.  I like to extract your imagination & apply it on the browser.A goal driven Frontend Software Developer 🚀 having experience in developing Dynamic Websites for both PC and Mobile views using Bootstrap / Material UI / SASS / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+ 
+    ),
   resumeLink:
     "https://docs.google.com/document/d/1IRxNaAKQQXPGPLf4_Xir9jMV3b4HDGDd/edit",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -22,13 +23,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/ukonulucky",
-  // linkedin: "https://www.linkedin.com/in/ukonulucky",
-  gmail: "ukonulucky@gmail.com",
+  github: "https://github.com/oghenekevwe27",
+   linkedin: "https://www.linkedin.com/in/oghenekevwe-edon-uwe-406652129",
+  gmail: "oghenekevwe27@gmail.com",
 
-  stackoverflow: "https://stackoverflow.com/users/ukonulucky",
-  instagram: 'https://www.instagram.com/ukonulucky/',
-  twitter: 'https://twitter.com/ukonulucky_',
+  // stackoverflow: "https://stackoverflow.com/users/ukonulucky",
+  // instagram: 'https://www.instagram.com/ukonulucky/',
+  twitter: 'https://twitter.com/Kevwe_Presh',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -36,7 +37,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A Smart Frontend Developer Who Delights In  designing And Developing Websites Application Using Current TECH Technologies.",
+  subTitle:
+    "A smart frontend developer who delights in  designing and developing Websites Application, Websites, & Landing Pages using current technologies.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -44,7 +46,7 @@ const skillsSection = {
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -53,35 +55,40 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
     },
     {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap",
+    },
+
+    {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
     },
 
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      fontAwesomeClassname: "fas fa-fire",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -113,19 +120,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend Development", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "50%"
+      Stack: "Backend Development",
+      progressPercentage: "50%",
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "75%"
-    }
+    // {
+    //   Stack: "Programming",
+    //   progressPercentage: "75%",
+    // },
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -133,38 +140,31 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-     {
-      role: "Freelance",
-      company: "Cinfores Limited",
-      companylogo: require("./assets/images/cinfores.jpg"),
-      date: "April 2021 – Present",
-      desc:
-        "Building Dynamic and Reponsive Webpages For Clients"
+    {
+      role: "Web Developer",
+      company: "Ububa Technologies",
+      companylogo: require("./assets/images/ububa.jpeg"),
+      date: "January 2022 – Present",
+      desc: "Building Websites,Project Cordination,Coaching",
+      // descBullets: ["Building Websites", "Project Cordination", "Coaching"],
     },
+    {
+      role: "Intern",
+      company: "Virtual savyy",
+      companylogo: require("./assets/images/cpLogo.png"),
+      date: "October 2021 – December 2021",
+      desc: "Building Dynamic and Reponsive Webpages For Clients",
+    },
+
     {
       role: "Trainee",
       company: "Rivers State ICT Department",
       companylogo: require("./assets/images/techcreek.jpg"),
-      date: "March 2021 – July 2021",
+      date: "June 2021 – September 2021",
       desc:
-        "Building of several dynamic webpages that is fully responsive for both mobile, desktop and PC views using ReactJs."
+        "Building of several dynamic webpages that is fully responsive for both mobile, desktop and PC views using ReactJs.",
     },
-  
-    {
-      role: "Intern",
-      company: "Ububa Technologies",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "Febuary 2020 – January 2021",
-      desc:
-        "Bulding A Team of Productive Software Developers.",
-      descBullets: [
-        "Building Websites",
-        "Project Cordination",
-        "Coaching"
-      ]
-    }
-   
-  ]
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -180,34 +180,45 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS I HAVE  CREATED ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/project/agbup.png"),
+      projectName: "AG Quarterly Report Portal",
+      projectDesc: "This is  a portal to record church activites per church",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
-        }
-        //  you can add extra buttons here.
-      ]
+          name: "Ongoing",
+          url: "$",
+        },
+      ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/project/apc.png"),
+      projectName: " APC Course Reg Portal",
+      projectDesc: "This is a portal for a digital skill acquizition programme to be conducted by APC.",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
-        }
-      ]
-    }
+          url: "https://apc.vercel.app/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: require("./assets/project/purity.png"),
+      projectName: "Purity",
+      projectDesc: "A test project",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://purity-pi.vercel.app/",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -269,7 +280,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display:false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -294,7 +305,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display:false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,16 +342,16 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Incase you wish to Discuss a project? Am allways ready.",
-  number: "+234-7063033152, +234-7019270583",
-  email_address: "ukonulucky@gmail.com"
+   subtitle:
+    "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL..",
+  number: "+2348134843836",
+  email_address: "oghenekevw27@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "ukonulucky", //Replace "twitter" with your twitter username without @
+  userName: "Kevwe_Presh", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

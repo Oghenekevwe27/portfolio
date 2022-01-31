@@ -16,7 +16,7 @@
 }
 
 .subTitle {
-  color: #868e96 !important;
+  color: #7497b9 !important;
 }
 
 .greeting-main {
@@ -42,10 +42,18 @@
   font-size: 30px;
   line-height: 40px;
 }
-
+.greeting-image-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+  max-width:  500px;
+  height: 500px;
+  border-radius: 50%;
+
+  width: 100%;
+
 }
 
 .wave-emoji {
@@ -103,7 +111,10 @@
     text-align: center;
   }
   .greeting-main {
-    display: block;
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+    /* grid-row: auto;  */
+    grid-gap: 120px 50px;
   }
   .greeting-image-div {
     height: 256px;

@@ -1,6 +1,6 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "ukonulucky.github.io",
+  "name": "oghenekevwe27",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,5 +45,17 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "description": "This is a ReactJS based personal resume website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oghenekevwe27/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oghenekevwe27/portfolio.git/issues"
   }
 }
